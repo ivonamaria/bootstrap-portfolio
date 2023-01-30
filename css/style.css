@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* // 62.5% = 10px font size */
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  body {
+    position: relative;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
+    }
+    [id] {
+      scroll-margin-top: 84px ;
+    }
+    @media (min-width: 992px) {
+      [id] {
+        scroll-margin-top: 69px;
+      }
+    }
+    .hero-shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,.8);
+      z-index: -1;
+    }
+    .orange-color {
+      color: rgba(208, 116, 11, 0.812);
+    }
+  /* Nav Bar */
+  .navbar-brand {
+    font-size: 2.2em;
+    text-transform: uppercase;
+  }
+  .nav-link, .navbar-toggler-icon {
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+  .navbar-toggler {
+    padding: 1em 2em;
+  }
+  .btn {
+    text-transform: uppercase;
+  }
+  /* welcome/hero section */
+  .jumbotron {
+    position: relative;
+    height: 60rem;
+    background-image: url(../img/computer.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+  .jumborton .btn {
+    padding: 1em 2em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+  }
+  .jumborton .welcome-text {
+    font-size: 2.2em;
+  }
+  /* section */
+  .aboutme-box h3 {
+  font-size: 2.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  .aboutme-icon {
+    font-size: 4rem;
+  }
+  .accordion-button {
+    font-size: 1.8em;
+    padding: 1.8em;
+  }
+  .accordion-button:not(.collaped) {
+    color: rgb(233, 142, 22);
+    background-color: rgb(248, 248, 248);
+  }
+  .contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .contact .submit-btn {
+    font-size: 1.6em;
+  }
+  a {
+    padding: 5px 2px;
+  }
