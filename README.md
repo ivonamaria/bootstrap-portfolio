@@ -4,11 +4,11 @@ I utilized Bootstrap to build this portfolio. The webpage is composed of a navig
 
 # Screenshots
 
-[](/img/Screenshot%202023-03-05%20at%2023.19.47.png)
+[Profile Picture](/img/Screenshot%202023-03-05%20at%2023.19.47.png)
 
-[](/img/Screenshot%202023-03-05%20at%2023.28.33.png)
+[Contact Me](/img/Screenshot%202023-03-05%20at%2023.28.33.png)
 
-[](/img/Screenshot%202023-03-05%20at%2023.29.06.png)
+[Projects Section](/img/Screenshot%202023-03-05%20at%2023.29.06.png)
 
 # License 
 
